@@ -11,7 +11,7 @@ public class DriverClass {
 		tree.left = new Node(30);
 		tree.right = new Node(60);
 		tree.left.left = new Node(10);
-		tree.left.right = new Node(40);
+		tree.right.left = new Node(55);
 
 		SkewTree skewedTree = new SkewTree();
 		skewedTree.buildRightTree(tree);
